@@ -8,9 +8,9 @@ A utility that can speeds up pre-converting tex files, ACEScg colorspace convers
 
 ## Features
 
-### Tex: Export PBR texture sets to PxrSurface-based material
+### Tex: Building RenderManAsset out of PBR Metallic/Roughness texture sets
 
-It will use the incoming texture files to create the shading network. It supports Albedo/BaseColor, Roughness, Metallic, Emissive, Displacement/Height. It will lookup for these keywords in the texture filename to construct the asset.
+It will use the incoming texture files to create the PxrSurface-based material. It supports Albedo/BaseColor, Roughness, Metallic, Emissive, Displacement/Height. It will lookup for these keywords in the texture filename to construct the asset.
 * UDIM supported.
 
 ### Tex: ACEScg colorspace conversion
