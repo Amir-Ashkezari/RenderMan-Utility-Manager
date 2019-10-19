@@ -3,13 +3,15 @@
 A utility that can speeds up pre-converting tex files, ACEScg colorspace conversion, building RenderManAsset out of PBR Metallic/Roughness texture sets, denoising rendered images via Hyperion Denoise Filtering or Intel Open Image Denoise.
 
 [Introduction Tex](https://vimeo.com/364862427)
+
 [Introduction HyperionDenoise](https://vimeo.com/367336236)
 
 ## Features
 
 ### Tex: Export PBR texture sets to PxrSurface-based material
 
-It will use the incoming texture files to create the shading network. It supports Albedo/BaseColor, Roughness, Metallic, Emissive, Displacement/Height. It will lookup for these keywords in the textures filename to construct the asset. It also supports UDIM.
+It will use the incoming texture files to create the shading network. It supports Albedo/BaseColor, Roughness, Metallic, Emissive, Displacement/Height. It will lookup for these keywords in the texture filename to construct the asset.
+* UDIM supported.
 
 ### Tex: ACEScg colorspace conversion
 
