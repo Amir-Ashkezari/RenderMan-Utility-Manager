@@ -2,9 +2,9 @@
 
 A utility that can speeds up pre-converting tex files, ACEScg colorspace conversion, building RenderManAsset out of PBR Metallic/Roughness texture sets, denoising rendered images via Hyperion Denoise Filtering or Intel Open Image Denoise.
 
-[Introduction Tex](https://vimeo.com/364862427)
+[Introduction to Tex](https://vimeo.com/364862427)
 
-[Introduction HyperionDenoise](https://vimeo.com/367336236)
+[Introduction to HyperionDenoise](https://vimeo.com/367336236)
 
 ## Features
 
