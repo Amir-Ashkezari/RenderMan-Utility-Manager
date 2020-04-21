@@ -15,7 +15,7 @@ It will use the incoming texture files to create the PxrSurface-based material. 
 
 ### Tex: ACEScg colorspace conversion
 
-It will use ocioconvert utility for converting incoming texture files to ACEScg colorspace. 
+It will use ocioconvert utility for converting incoming texture files to ACEScg colorspace.
 
 ### HyperionDenoise
 
@@ -27,7 +27,7 @@ It uses Intel Open Image Denoise example to filter incoming rendered images.
 
 ## Requirements
 
-This utility require the following software to operate:
+This utility require the following softwares to operate:
 
 * RenderMan Pro Server 21.0+
 * [OpenColorIO-tools](https://opencolorio.org/userguide/tool_overview.html#ocioconvert)
@@ -40,12 +40,18 @@ This utility require the following software to operate:
 
 ## Release notes
 
+### 0.6.1
+
+* Added
+  * oiiotool windows binary for ACES conversion
+  * Note: OCIO env variable must be available, add the root address of oiiotool to Path System environment variable
+
 ### 0.6
 
 * Added
   * Hyperion Denoise Filtering
   * Intel Open Image Denoise
-  
+
 * Fixed
   * Open IT context menu no longer freezes the gui
 
@@ -64,10 +70,10 @@ This utility require the following software to operate:
 
   * Displacement/height to PBR Metallic/Roughness mode
   * OpenGL and DirectX normal orientation to PBR Metallic/Roughness mode
-  
+
 * Fixed
   * An issue when trying to open images in the selection dailog via openIT context menu
-  
+
 ### 0.1
 
 * Added
