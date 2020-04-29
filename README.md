@@ -44,7 +44,7 @@ This utility require the following softwares to operate:
 
 * Added
   * oiiotool windows binary for ACES conversion
-  * Note: OCIO env variable must be available, add the root address of oiiotool to Path System environment variable
+  * Note: OCIO env variable must be available, add the full path to oiiotool to System Path environment variable
 
 ### 0.6
 
